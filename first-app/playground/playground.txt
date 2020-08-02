@@ -1,0 +1,21 @@
+
+    <SafeAreaView style={[styles.container]}>
+      <View style={{ flex: 1, backgroundColor: "green" }}></View>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+       <Image
+           source={{
+               uri : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSG3NtyF_MFhk9Qm4XnI7VUGQCdQGAnbLx8A&usqp=CAU" ,
+               height: 240,
+               width: 270,
+               background:"red"
+           }}
+         />
+       </View>
+      <View style={{ flex: 1, backgroundColor: "red" }}></View>
+    </SafeAreaView>
